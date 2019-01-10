@@ -1,0 +1,55 @@
+
+{# page code html #}
+{% extends 'Layout/layout.html.twig' %} 
+
+{% block title %}
+    {{ parent() }} - Home {# permet de changer nom de page #}
+{% endblock %}
+
+{% block content %} {#membres du groupe#}
+
+    <div class="flex">
+    <div class="team">
+
+    <div class="">
+        <a href="steeve" class="photo1 hoverphoto" ><img src="assets/image/steve.jpg"/></a>
+    </div>
+
+    <div>
+        <a href="cc" class="hoverphoto"><img src="assets/image/cc.jpg"/></a>
+    </div>
+            
+    <div>
+        <a href="sam" class="hoverphoto"><img src="assets/image/sam.jpg"/></a>
+    </div>
+            
+    <div>
+        <a href="ion" class="hoverphoto"><img src="assets/image/ion.jpg"/></a>
+    </div>
+
+    <div>
+        <a href="frah" class="hoverphoto"><img src="assets/image/frah.jpg"/>
+            </a> 
+    </div>
+
+    <div>
+        <a href="mandris" class="hoverphoto"><img src="assets/image/mandris.jpg"/></a>
+    </div>    
+
+    <div>
+        <a href="goz" class="hoverphoto"><img src="assets/image/goz.jpg"/></a>
+    </div>
+
+    </div>
+
+    <div class="accueilvideo">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/QFRuw3CrBbs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ab dolore temporibus quidem beatae odio tempore vero accusantium enim, praesentium sunt et veniam. Consectetur architecto veritatis quas inventore modi veniam!</p>
+    </div>
+  </div>
+  
+
+
+{% endblock %}
+
+
